@@ -11,6 +11,7 @@ public class App {
 		  String titre = ResourceBundle.getBundle("application").getString("titre");
 		  String asciiArt = FigletFont.convertOneLine(titre);
 		  System.out.println(asciiArt);
+		  System.out.println(asciiArt);
 		  // affichage de l'environnement
 		  String environnement = ResourceBundle.getBundle("application").getString(
 		  "environnement");
